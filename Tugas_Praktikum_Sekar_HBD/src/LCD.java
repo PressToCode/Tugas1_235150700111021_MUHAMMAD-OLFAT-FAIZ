@@ -19,6 +19,7 @@ public class LCD {
 
     public void turnOn() {
         this.status = "Menyala";
+        this.onAtauOff = true;
     }
 
     public void freeze() {
@@ -168,17 +169,17 @@ public class LCD {
         switch(temp) {
             case "1":
             case "starwars":
-                this.cable = "Star Wars";
+                this.Film = "Star Wars";
                 return false;
 
             case "2":
             case "finaldestination":
-                this.cable = "Final Destination";
+                this.Film = "Final Destination";
                 return false;
 
             case "3":
             case "justiceleague":
-                this.cable = "Justice League";
+                this.Film = "Justice League";
                 return false;
 
             default:
