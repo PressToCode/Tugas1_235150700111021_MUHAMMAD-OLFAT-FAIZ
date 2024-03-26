@@ -119,7 +119,7 @@ public class LCD {
                 return false;
 
             default:
-                System.out.print("\nInput invalid! Ulangi lagi! = ");
+                System.out.print("\nInput invalid! Ulangi lagi! \n= ");
                 return true;
         }
     }
@@ -183,7 +183,7 @@ public class LCD {
                 return false;
 
             default:
-                System.out.print("\nInput invalid! Ulangi lagi! = ");
+                System.out.print("\nInput invalid! Ulangi lagi! \n= ");
                 return true;
         }
     }
